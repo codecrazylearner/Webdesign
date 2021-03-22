@@ -1,0 +1,22 @@
+* Get words from text file with pre-inserted words, one per line;
+* Maximum guess is set to 5(Max number of incorrect guesses allowed: 5)
+*   Open text file with words
+*   Split read content into list of words
+*   Randomly select words use as answer
+* Split answer into list with characters
+* Create a list with as many underscores as the answer length 
+* Get user input (guessed letter)
+* While attempts remaining equals 5:
+*   if user has any guesses left:
+*      Ask for the user's guess
+*        convert user's guess to uppercase
+*        if user's guess in answer:
+*           replaces the underscore with the letters
+*               print message user made correct guess
+*                   compare answer list to result
+*        if user's guess is not correct:
+*           decrement remaining guess by 1
+*               print message user made incorrect guess
+*         display current result and attempts remaining
+*           print message sorry no guesses left you loose
+*           
